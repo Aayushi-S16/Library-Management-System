@@ -1,0 +1,258 @@
+/* .books-page{
+    height: 120vh;
+    width: 100vw;
+    background-color: wheat;
+}
+
+.books{
+   
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 15px;
+    max-width: 1024px;
+}
+
+.book-card{
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    height: auto;
+    width: 250px;
+    align-items: center;
+    padding: 25px;
+    margin: 10px;
+    -webkit-box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+
+.book-card img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 25px!important;
+    border-radius: 18px;
+}
+
+.book-card img:hover{
+    transform: scale(1.05);
+    transition: all ease 1.3s;
+}
+
+.bookcard-title{
+    word-wrap: break-word;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bookcard-author{
+    color: rgb(141, 140, 140);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.bookcard-category{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.bookcard-category p{
+    padding: 8px 15px;
+    background-color: lightgray;
+    font-weight: 600;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.bookcard-emptybox{
+    height: 50px;
+    position: relative;
+    bottom: 0%;
+    background-color: rgb(0, 0, 0);
+} */
+
+/*.syllabus-page{
+  height: 100vh;
+  width: 100vw;
+  background-color: wheat;
+}
+.expandable-window {
+    
+    margin-top: 60px; 
+  }
+  
+  .toggle-icon {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+   
+
+  }
+  
+  .panel-collapse {
+    display: none;
+  }
+  
+  .expanded .panel-collapse {
+    display: block;
+  }
+  
+  .panel-body {
+    padding: 10px;
+  }
+  
+  .panel-title {
+    margin-bottom: 0;
+    /* font-size: 20px;
+    font-weight: 400; */
+  /*}
+  
+  .panel-title h6 {
+    margin: 0;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table td {
+    padding: 8px;
+    border: black
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #5bc0de;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #31b0d5;
+    border-color: #269abc;
+  }
+  
+  .btn:focus {
+    background-color: #31b0d5;
+    border-color: #269abc;
+    outline: 0;
+  }
+
+  
+  .title1{
+     font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+  }*/
+
+  /* Allbooks.css */
+
+.syllabus-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.expandable-window {
+  margin-top: 60px; 
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+
+}
+
+
+.expandable-window.expanded {
+  border-color: #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.toggle-icon {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.panel-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.panel-collapse.show {
+  max-height: 500px; /* Adjust as needed for your content */
+}
+
+.panel-body {
+  padding: 15px;
+}
+
+.panel-heading {
+  background-color: #f7f7f7;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.panel-title {
+  margin: 0;
+  font-size: 16px;
+}
+
+.title1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+}
+
+.table-bordered td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+
